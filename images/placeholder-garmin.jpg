@@ -1,0 +1,22 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#1f2937"/>
+  <circle cx="400" cy="400" r="250" fill="#2563eb"/>
+  <circle cx="400" cy="400" r="230" fill="#1f2937"/>
+
+  <!-- Watch screen -->
+  <rect x="250" y="250" width="300" height="300" fill="#ffffff" rx="15"/>
+
+  <!-- RunEQ Display -->
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="24" fill="#2563eb" text-anchor="middle" font-weight="bold">RunEQ</text>
+
+  <!-- Data Fields -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="48" fill="#1f2937" text-anchor="middle" font-weight="bold">7:45</text>
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">Pace /mi</text>
+
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="32" fill="#10b981" text-anchor="middle" font-weight="bold">5.2 mi</text>
+  <text x="400" y="465" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Run Equivalent</text>
+
+  <text x="400" y="505" font-family="Arial, sans-serif" font-size="18" fill="#f59e0b" text-anchor="middle">HR: 152 | TE: 3.8</text>
+
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="12" fill="#10b981" text-anchor="middle">Replace with actual Garmin photo</text>
+</svg>
