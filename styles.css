@@ -341,6 +341,13 @@ section {
     color: rgba(255,255,255,0.9);
 }
 
+.hero-platform-note {
+    margin-top: 1rem;
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.01em;
+}
+
 .brand-highlight {
     color: var(--accent);
     font-weight: 800;
