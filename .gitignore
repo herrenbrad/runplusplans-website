@@ -46,3 +46,8 @@ build/
 # Backup files
 *.bak
 *.backup
+
+# Local backups and drafts
+_codex-backup/
+preview.html
+preview.css

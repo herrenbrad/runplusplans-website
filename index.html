@@ -1,419 +1,362 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meet Coach Aiden — your AI running coach with longitudinal memory, a 3-tier outcome guarantee, and training plans that adapt to your life, your injuries, and your equipment.">
-
-    <!-- Google Analytics 4 -->
-    <!-- TODO: Replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-XXXXXXXXXX');
-    </script>
-    -->
-    <meta name="keywords" content="Coach Aiden, ElliptiGO, Cyclete, RunEQ, training plans, running, cross-training, AI coach, Garmin, injury recovery">
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Run+ Plans — Meet Coach Aiden">
-    <meta property="og:description" content="AI running coach with longitudinal memory. 3-tier outcome guarantee. Training plans that adapt to your life, your injuries, and your equipment.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://runplusplans.com">
-
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Run+ Plans — Meet Coach Aiden">
-    <meta name="twitter:description" content="AI coach who knows your history. 3-tier guarantee. Every workout adapts. Training That Bends, Not Breaks.">
-
-    <title>Run+ Plans — Training That Bends, Not Breaks | Meet Coach Aiden</title>
-
-    <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
-    <link rel="apple-touch-icon" href="images/logo.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RunEQ — Coach Aiden, the AI running coach who tells you the truth</title>
+  <meta name="description" content="Coach Aiden is the AI coach inside RunEQ. He builds your plan from what you've actually run, reads every workout lap by lap, answers your questions about it, and reshapes the week when life gets in the way. Early Access is open for October.">
+  <meta name="theme-color" content="#07111f">
+  <link rel="canonical" href="https://runeq.co/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RunEQ">
+  <meta property="og:url" content="https://runeq.co/">
+  <meta property="og:title" content="RunEQ — A running coach who tells you the truth">
+  <meta property="og:description" content="Coach Aiden reads every run lap by lap, answers your questions about it, and adapts your plan when life changes. Early Access is open for October.">
+  <meta property="og:image" content="https://runeq.co/images/runeq-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="RunEQ — A running coach who tells you the truth. Coach Aiden's verdict shown in the app.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RunEQ — A running coach who tells you the truth">
+  <meta name="twitter:description" content="Coach Aiden reads every run lap by lap, answers your questions, and adapts your plan when life changes.">
+  <meta name="twitter:image" content="https://runeq.co/images/runeq-og.png">
+  <link rel="icon" type="image/png" href="images/runeq-favicon.png?v=2">
+  <link rel="apple-touch-icon" href="images/runeq-app-icon.png?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"RunEQ","url":"https://runeq.co/","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"An AI running coach, Coach Aiden, with goal-specific training plans, workout explanations, lap-by-lap post-workout analysis you can ask questions about, weekly reviews, life adaptations and earned pace progression.","offers":[{"@type":"Offer","price":"15","priceCurrency":"USD","description":"Early Access monthly"},{"@type":"Offer","price":"129","priceCurrency":"USD","description":"Early Access annual"}],"brand":{"@type":"Brand","name":"RunEQ"}}
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Beta Application Form: https://form.typeform.com/to/HnjGzJlV -->
+  <div class="ea-bar"><p><strong>Early Access is open for October.</strong> $15 a month while it lasts. <a href="#pricing">See pricing</a></p></div>
 
-    <!-- NAVIGATION -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#hero" class="nav-logo">
-                <img src="images/logo.png" alt="Run+ Plans" class="nav-logo-img">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#coach-aiden" class="nav-link">Coach Aiden</a></li>
-                <li class="nav-item"><a href="#life-adaptations" class="nav-link">Life Adaptations</a></li>
-                <li class="nav-item"><a href="#runeq" class="nav-link">RunEQ</a></li>
-                <li class="nav-item"><a href="https://app.runplusplans.com" class="nav-link">Login</a></li>
-                <li class="nav-item"><a href="#get-started" class="nav-link nav-cta">Apply for Beta</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="RunEQ home"><img src="images/runeq-logo-transparent.png" width="376" height="108" alt="RunEQ"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <a href="#aiden">Coach Aiden</a>
+      <a href="#different">Why RunEQ</a>
+      <a href="#life">Life changes</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-login" href="https://app.runeq.co/" data-track="login">Log in</a>
+      <a class="button button-small" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
     </nav>
+  </header>
 
-    <!-- SECTION 1: HERO -->
-    <section id="hero" class="hero-section">
-        <div class="hero-content">
-            <h1 class="headline">Training That Bends, Not Breaks</h1>
-            <p class="subheadline">Meet <strong class="brand-highlight">Coach Aiden</strong> — your AI running coach who knows your history, adapts to your life, and guarantees your outcome. Built for every runner. Ready for anything life throws at your training.</p>
-            <div class="cta-buttons">
-                <a href="https://form.typeform.com/to/HnjGzJlV" class="btn btn-primary">Apply for Beta Access</a>
-                <a href="https://app.runplusplans.com" class="btn btn-secondary">Login →</a>
-            </div>
-            <p class="hero-platform-note">Works in your browser or on your phone — same full experience, everywhere.</p>
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Meet Coach Aiden</p>
+          <h1>A running coach who tells you the truth.</h1>
+          <p class="lede">Aiden is the AI coach inside RunEQ. He builds your plan from what you've actually run, explains every workout before you lace up, reads it lap by lap when you're done — and then you can ask him about it.</p>
+          <div class="actions">
+            <a class="button" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
+            <span class="price-note">$15 a month during Early Access</span>
+          </div>
+          <ul class="hero-points">
+            <li>5K, 10K, half and full marathon</li>
+            <li>Garmin and Strava connected</li>
+            <li>Runs in any browser</li>
+          </ul>
         </div>
+        <figure class="phone phone-hero">
+          <img src="images/app/app-today.webp" width="400" height="866" alt="RunEQ's Today screen: week 3 of a 21-week half marathon plan, today's 600m repeats at 8:51 per mile with a Send to Garmin button.">
+        </figure>
+      </div>
     </section>
 
-    <!-- SECTION 2: COACH AIDEN -->
-    <section id="coach-aiden" class="coach-aiden-section">
-        <div class="container">
-            <div class="aiden-header">
-                <h2 class="aiden-title">Not a chatbot. A coach with memory.</h2>
-            </div>
+    <!-- THE VERDICT -->
+    <section class="verdict" id="aiden">
+      <div class="wrap">
+        <blockquote class="big-quote">
+          <p>“2:24 to 2:00 is 24 minutes to close — a serious reach, and the current data does not support promising it.”</p>
+          <footer>Coach Aiden, opening a real 21-week half marathon plan</footer>
+        </blockquote>
 
-            <div class="aiden-description">
-                <p>Aiden's coaching voice is modeled after one of distance running's most respected minds. Not generic motivation — a specific philosophy, a studied methodology, and the kind of honest straight talk that great coaches are known for.</p>
-                <p>He delivers personalized narrative assessments that reference <em>your</em> actual training data — your paces, your cross-training ratio, your injury history. Over time, he watches your patterns and calls them out. Supplementing long runs with Cyclete rides? He sees it and notes it. That's not AI-generated generic advice. That's coaching.</p>
-                <p>And if you've been injured? Aiden knows. Your injury history is baked into how he builds and adjusts your plan — not something you have to remind him every session.</p>
-            </div>
-
-            <details class="aiden-sample">
-                <summary class="aiden-sample-header">
-                    <span class="aiden-sample-label">See a real Coach Aiden assessment of one of our runners</span>
-                    <span class="aiden-sample-chevron">▼</span>
-                </summary>
-                <blockquote class="aiden-quote">
-                    <p>"I've been watching your journey since December, and here's what the data tells me: You built something real in January and February. That 21-mile week in early March, the 10-miler at 10:32 pace with a 133 bpm heart rate — that showed legitimate aerobic efficiency. You proved you can handle structured volume when you commit to it.</p>
-                    <p>But then life happened. The last three weeks averaged 3.6 miles per week. Your most recent long run was 4 miles. That fitness from February? It's not gone, but it's definitely not current. Your 4:00:00 goal translates to 9:09/mile for 26.2 miles. Based on your current fitness, if you could magically run a marathon tomorrow, you'd probably finish around 4:40–4:45. That's a 40–45 minute gap to close in 21 weeks.</p>
-                    <p>Here's my three-tier honest assessment: I can practically <strong>guarantee</strong> we'll get you to 4:15–4:20. That's a legitimate marathon finish with smart training. We're <strong>shooting for 4:00:00</strong> — that's our training target, and it's achievable if you execute consistently. And if everything clicks — perfect training block, ideal race day conditions, flawless execution — <strong>sub-4:00 is within reach.</strong></p>
-                    <p>But let's be clear about what has to happen: You need to rebuild that consistency you showed in January and February."</p>
-                </blockquote>
-                <p class="aiden-sample-note">Real output from Coach Aiden. No filter. No fluff. This is what accountability looks like.</p>
-            </details>
-
-            <details class="aiden-sample">
-                <summary class="aiden-sample-header">
-                    <span class="aiden-sample-label">See a real post-workout coaching chat — after a run that didn't go as planned</span>
-                    <span class="aiden-sample-chevron">▼</span>
-                </summary>
-                <div class="aiden-chat">
-                    <div class="aiden-chat-context">After a 10-Mile Easy Long Run — runner just pivoted mid-workout to the Cyclete</div>
-                    <div class="aiden-chat-message user">
-                        <span class="aiden-chat-speaker">You</span>
-                        <p>I wanted to get further in the run! But fizzled out a bit after that hilly climb. The realization that I just returned to Medellin from ~500 feet Texas a week ago — I am not fully acclimated to altitude yet! That's probably the reason.</p>
-                    </div>
-                    <div class="aiden-chat-message coach">
-                        <span class="aiden-chat-speaker">Coach Aiden</span>
-                        <p>Brad, that's exactly it. You're at what, 5,000+ feet in Medellin? Your body's still building red blood cells to handle that oxygen deficit — takes 2–3 weeks minimum to adapt. That fizzle wasn't fitness, it was physiology.</p>
-                        <p>Here's what matters: you read it correctly and pivoted to the Cyclete instead of forcing more run miles. That's elite decision-making. The altitude stress is real training stimulus — your cardiovascular system is working overtime just to maintain easy pace.</p>
-                        <p>Keep expectations realistic for the next week or two. Easy paces will be slower, HRs will drift higher, and that's normal. The Cyclete becomes even more valuable here — you can stack aerobic volume without compounding the altitude stress on your running legs. Your body's adapting to 5,000 feet while building marathon fitness. Trust the process.</p>
-                    </div>
-                </div>
-                <p class="aiden-sample-note">Real post-workout coaching chat. Aiden knows your altitude, your equipment, your plan, and what just happened on the run.</p>
-            </details>
-
-            <div class="guarantee-section">
-                <h3 class="guarantee-title">The 3-Tier Outcome Guarantee</h3>
-                <p class="guarantee-subtitle">From day one, Aiden sets three clear outcomes for your plan — no vague "you'll get faster" promises.</p>
-                <div class="guarantee-grid">
-                    <div class="guarantee-card guarantee-floor">
-                        <div class="guarantee-icon">🏁</div>
-                        <h4>Floor</h4>
-                        <p>The minimum outcome you'll achieve if you follow the plan. Not a guess — a commitment.</p>
-                    </div>
-                    <div class="guarantee-card guarantee-target">
-                        <div class="guarantee-icon">🎯</div>
-                        <h4>Target</h4>
-                        <p>What you're training toward. Your goal pace, your goal finish. Real numbers, specific to you.</p>
-                    </div>
-                    <div class="guarantee-card guarantee-stretch">
-                        <div class="guarantee-icon">🚀</div>
-                        <h4>Stretch</h4>
-                        <p>If everything clicks. The ceiling you might actually be capable of. Aiden believes in you.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="life-happened-callout">
-                <div class="life-happened-icon">💬</div>
-                <div class="life-happened-content">
-                    <h3>Life Happened?</h3>
-                    <p>Open a chat with Coach Aiden, tell him what went sideways, and get a guilt-free plan reset. No streaks lost. No shame. Just pick up where you should — not where you left off feeling bad about it.</p>
-                </div>
-            </div>
-
-            <div class="text-center mt-3">
-                <a href="https://form.typeform.com/to/HnjGzJlV" class="btn btn-primary">Apply for Beta Access</a>
-            </div>
+        <div class="verdict-grid">
+          <figure class="phone">
+            <img src="images/app/app-coachs-verdict.webp" width="398" height="866" loading="lazy" alt="The Coach's Verdict in RunEQ: Aiden explains the runner's starting point of 2:23:39 against a 2:00:00 goal.">
+          </figure>
+          <div class="verdict-copy">
+            <h2>Most apps hand you the goal time you typed in. Aiden shows you the gap.</h2>
+            <p>Before your plan starts, Aiden reads your recent training from Strava or Garmin and writes you a letter: where you are today, what your goal really asks for, and what you'll need to prove along the way. If the goal is a stretch, he says so — then builds the plan to close it.</p>
+            <p>This is RunEQ's founder's own plan. He's training on it right now.</p>
+            <dl class="expectations">
+              <div><dt>Honest baseline</dt><dd>2:16:45</dd><span>Grounded in the evidence</span></div>
+              <div class="is-target"><dt>Best bet</dt><dd>2:09:52</dd><span>If you earn the plan</span></div>
+              <div><dt>Stretch</dt><dd>2:00:40</dd><span>If everything clicks</span></div>
+            </dl>
+            <p class="small">Same plan, three honest expectations. They move as the training comes in.</p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- SECTION 3: INJURED RUNNER SUPPORT -->
-    <section id="injury-support" class="injury-section">
-        <div class="container">
-            <h2>Training Through Injury? We've Got You.</h2>
-            <p class="section-intro">Unlike every other app that hands you a rest day and disappears, Run+ Plans has specialized injury support built on sports physiology principles — and Coach Aiden carries your injury history forward so you never have to start over.</p>
-
-            <div class="injury-features">
-                <div class="injury-feature">
-                    <span class="icon">🏥</span>
-                    <h3>Sports Physiology-Based Guidance</h3>
-                    <p>Biomechanical analysis and evidence-based recovery protocols tailored to your specific injury — not a generic RICE protocol.</p>
-                </div>
-                <div class="injury-feature">
-                    <span class="icon">⚠️</span>
-                    <h3>Equipment Safety Check</h3>
-                    <p>AI warns you if certain equipment could aggravate your injury before you start training on it.</p>
-                </div>
-                <div class="injury-feature">
-                    <span class="icon">🔄</span>
-                    <h3>Smart Equipment Rotation</h3>
-                    <p>Automatically rotates through all your available cross-training equipment to prevent compounding overuse injuries.</p>
-                </div>
-                <div class="injury-feature">
-                    <span class="icon">📈</span>
-                    <h3>Return-to-Running Protocol</h3>
-                    <p>Evidence-based progression from cross-training back to running when you're cleared and ready.</p>
-                </div>
-            </div>
-
-            <p class="injury-note"><strong>Medical Disclaimer:</strong> Run+ Plans provides training guidance, not medical advice. Always consult a healthcare provider for injury diagnosis and treatment.</p>
-
-            <div class="inline-cta">
-                <p>Train safely through injury recovery. <a href="https://form.typeform.com/to/HnjGzJlV" class="btn btn-primary">Apply for Beta Access</a></p>
-            </div>
+    <!-- THE READ -->
+    <section class="read dark" id="read">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>After every run, Aiden reads what actually happened.</h2>
+          <p>Not a map and a pace average. A lap-by-lap read of the session, in the context of your plan, your terrain — even your altitude.</p>
         </div>
+        <div class="read-grid">
+          <figure class="phone">
+            <img src="images/app/app-lap-by-lap-read.webp" width="361" height="780" loading="lazy" alt="Coach Aiden's session read: lap-by-lap analysis of a tempo run, noting that holding threshold pace at 5,000 feet in Medellín is harder than at sea level.">
+          </figure>
+          <div class="read-copy">
+            <blockquote class="pull">
+              <p>“At 5,000 feet in Medellín, holding that effort is legitimately harder than sea level… which is exactly what that 155 bpm in Lap 4 reflects. You didn't blow up — you executed.”</p>
+              <footer>Coach Aiden, reading a real tempo run</footer>
+            </blockquote>
+            <figure class="inline-shot">
+              <img src="images/app/app-session-payoff.webp" width="361" height="322" loading="lazy" alt="The payoff: a tempo run wrapped in two bike legs delivered about 7 RunEQ miles of aerobic work with only 5 miles of ground contact.">
+            </figure>
+            <div class="ask">
+              <h3>Then ask him about it.</h3>
+              <p>Every workout read and every weekly review has a chat box. Why did my heart rate drift? Should I have pushed the last rep? What does this mean for Sunday? Aiden answers from your plan and your data — not a generic chatbot guess.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- SECTION 4: PROBLEM -->
-    <section id="problem" class="problem-section">
-        <div class="container">
-            <h2>Sound Familiar?</h2>
-            <p class="section-intro">Every runner has been here. Most apps just don't care.</p>
-            <div class="problems-grid">
-                <div class="problem-item">
-                    <span class="icon">❌</span>
-                    <p>Your "AI coach" gives the same generic advice to everyone</p>
-                </div>
-                <div class="problem-item">
-                    <span class="icon">❌</span>
-                    <p>Miss a workout and your streak is gone — guilt trip included</p>
-                </div>
-                <div class="problem-item">
-                    <span class="icon">❌</span>
-                    <p>Injured? You get a rest day and radio silence</p>
-                </div>
-                <div class="problem-item">
-                    <span class="icon">❌</span>
-                    <p>Plans start at goal pace from Week 1 and set you up to fail</p>
-                </div>
-                <div class="problem-item">
-                    <span class="icon">❌</span>
-                    <p>No flexibility when life gets in the way of training</p>
-                </div>
-                <div class="problem-item">
-                    <span class="icon">❌</span>
-                    <p>Cross-training counts for nothing — your app ignores it entirely</p>
-                </div>
-            </div>
+    <!-- WORKOUT DAY -->
+    <section class="workout" id="workout">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Before the run, you know exactly what today is for.</h2>
+          <p>Every session comes with its structure, target and source — and Aiden's read on how to run it today, for you.</p>
         </div>
+        <ol class="day-steps">
+          <li>
+            <figure class="phone phone-sm"><img src="images/app/app-workout-intelligence.webp" width="361" height="780" loading="lazy" alt="Workout details for a Classic Tempo Run: target pace, structure bar, effort description and how to run it."></figure>
+            <h3>The assignment</h3>
+            <p>Structure, pace, effort and where the workout comes from — Pfitzinger, Higdon, McMillan. The bar you see is exactly what your watch will show.</p>
+          </li>
+          <li>
+            <figure class="phone phone-sm"><img src="images/app/app-pre-workout-read.webp" width="361" height="780" loading="lazy" alt="Coach Aiden's pre-workout read for 600m repeats, explaining the recovery discipline and adjusting expectations for running at 5,000 feet."></figure>
+            <h3>Aiden's read on it</h3>
+            <p>Why this session matters for your goal, the mistake to avoid, and what to expect today — like your heart rate running high at altitude.</p>
+          </li>
+          <li>
+            <figure class="phone phone-sm"><img src="images/app/app-post-workout-read.webp" width="361" height="780" loading="lazy" alt="Post-workout read comparing target against what happened: quality efforts 9:44 to 10:07 per mile versus a 10:00 target, held."></figure>
+            <h3>Target vs. what happened</h3>
+            <p>Your run comes in from Garmin or Strava and lands next to the assignment: pace, effort, cost, terrain.</p>
+          </li>
+        </ol>
+      </div>
     </section>
 
-    <!-- SECTION 4: LIFE ADAPTATIONS -->
-    <section id="life-adaptations" class="life-adaptations-section">
-        <div class="container">
-            <h2>Every Workout Adapts. Every Single One.</h2>
-
-            <div class="philosophy-banner">
-                <span class="philosophy-quote">"Same Stimulus, Different Way"</span>
-                <p>We translate the physiological target of any workout to any modality — so you're always training with purpose, no matter what life throws at you.</p>
-            </div>
-
-            <p class="section-intro">Tap <strong>Life Adaptations</strong> on any workout and choose from 6 categories:</p>
-
-            <div class="adaptations-grid">
-                <div class="adaptation-card">
-                    <span class="adaptation-icon">🤖</span>
-                    <h3>Ask Coach Aiden</h3>
-                    <p>Get personalized guidance from your coach based on your specific situation, history, and today's context.</p>
-                </div>
-                <div class="adaptation-card adaptation-featured">
-                    <span class="adaptation-icon">🔄</span>
-                    <h3>Same Stimulus, Different Way</h3>
-                    <p>8+ tagged alternatives that hit the exact same physiological target — any modality, same training effect.</p>
-                </div>
-                <div class="adaptation-card">
-                    <span class="adaptation-icon">📉</span>
-                    <h3>Make It Easier</h3>
-                    <p>Scale back intensity without losing progress. A modified workout always beats no workout.</p>
-                </div>
-                <div class="adaptation-card">
-                    <span class="adaptation-icon">🚲</span>
-                    <h3>Switch to Stand Up Bike</h3>
-                    <p>Full dedicated Cyclete or ElliptiGO workflow — not generic cross-training. Purpose-built stand up bike workouts that match the run they replace.</p>
-                </div>
-                <div class="adaptation-card">
-                    <span class="adaptation-icon">🏋️</span>
-                    <h3>Cross-Train Instead</h3>
-                    <p>Swap the run for pool running, elliptical, rowing, or other cardio — and still get a purposeful workout that counts toward your training.</p>
-                </div>
-                <div class="adaptation-card">
-                    <span class="adaptation-icon">🧱</span>
-                    <h3>Brick Workout</h3>
-                    <p>Run + bike combo sessions. A triathlete's secret weapon — now built into marathon training for the days you want both.</p>
-                </div>
-            </div>
-
+    <!-- WEEKLY VERDICT -->
+    <section class="weekly dark" id="weekly">
+      <div class="wrap split">
+        <div class="split-copy">
+          <h2>Every week ends with a real review.</h2>
+          <p>Aiden looks at the whole week — what you ran, what you rode, what you skipped — and tells you straight. Completed 2 of 5 sessions? He'll say so, give you credit for what you did execute, and tell you what to put back on the calendar.</p>
+          <blockquote class="pull pull-sm">
+            <p>“The workouts you missed matter for development, and that's what we'll build toward. But what you did complete, you executed cleanly.”</p>
+            <footer>Coach Aiden, a real week 2 review</footer>
+          </blockquote>
+          <p>Each review ends with what it means for your race, the plan for next week, and whether you've earned faster paces. And yes — you can ask him questions about that too.</p>
         </div>
+        <figure class="phone">
+          <img src="images/app/app-weekly-verdict.webp" width="342" height="696" loading="lazy" alt="Week 2 Verdict: Progressing well. Coach Aiden's full weekly review.">
+        </figure>
+      </div>
     </section>
 
-    <!-- SECTION 5: STAND-UP BIKE CALLOUT -->
-    <section id="runeq" class="runeq-section">
-        <div class="container">
-            <h2>Ride a Cyclete or ElliptiGO? You're Home.</h2>
-            <p class="section-subheading">Run+ Plans is the only training app in the world built with stand-up bikes fully integrated — not as an afterthought, but as a first-class citizen.</p>
-
-            <div class="runeq-content">
-                <div class="runeq-features">
-                    <div class="runeq-feature">
-                        <span class="runeq-icon">📏</span>
-                        <div class="runeq-feature-text">
-                            <strong>RunEQ Miles — Know Your Equivalent</strong>
-                            <p>How many miles did you "run" on the Cyclete today? RunEQ answers that in real time on your Garmin watch. Heart rate + training effect = honest run-equivalent miles. No inflating your numbers.</p>
-                        </div>
-                    </div>
-                    <div class="runeq-feature">
-                        <span class="runeq-icon">🏍️</span>
-                        <div class="runeq-feature-text">
-                            <strong>The SUB Workout Library — 45 Workouts</strong>
-                            <p>45 purpose-built Stand Up Bike workouts across 6 categories — Tempo, Intervals, Power &amp; Hills, Long Endurance, Aerobic Base, and Recovery. Not "go ride for an hour." Fully structured, running-equivalent sessions engineered to hit the exact same physiological stimulus as the runs they replace.</p>
-                        </div>
-                    </div>
-                    <div class="runeq-feature">
-                        <span class="runeq-icon">⌚</span>
-                        <div class="runeq-feature-text">
-                            <strong>Live on Your Garmin</strong>
-                            <p>The RunEQ data field runs on your Garmin watch during every ride. Mega Field layout shows all your metrics at a glance. Your plan prescribes the target — "ride until your Garmin shows 4 RunEQ Miles" — your watch tracks it.</p>
-                        </div>
-                    </div>
-                    <div class="runeq-feature">
-                        <span class="runeq-icon">🔭</span>
-                        <div class="runeq-feature-text">
-                            <strong>Thinking About Getting One?</strong>
-                            <p>If you're considering a Cyclete or ElliptiGO, Run+ Plans is the ecosystem that makes it make sense for your running training. No other app comes close.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="runeq-cta">
-                <a href="https://form.typeform.com/to/HnjGzJlV" class="btn btn-primary">Learn More Inside the App</a>
-            </div>
+    <!-- EARN IT -->
+    <section class="earn" id="earn-it">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Your paces move when you've earned it.</h2>
+          <p>Most plans assume you'll get faster on schedule. RunEQ waits for the evidence — and shows you the checkpoints you'll have to pass to prove you're ready.</p>
         </div>
+        <div class="earn-grid">
+          <div class="earn-item">
+            <figure class="phone phone-sm"><img src="images/app/app-earn-it.webp" width="398" height="866" loading="lazy" alt="Coach's Office progress view: original gap 23:39, 2:13 closed, 21:26 remaining, with baseline and current earned paces."></figure>
+            <h3>The gap, closing</h3>
+            <p>See the original gap, what you've closed, and your current paces. Three weeks in, this runner has earned 8 seconds per mile.</p>
+          </div>
+          <div class="earn-item">
+            <figure class="phone phone-sm"><img src="images/app/app-checkpoints.webp" width="398" height="660" loading="lazy" alt="Proof along the way: checkpoints at weeks 6, 10, 14 and 18, from a surge long run to goal half marathon pace."></figure>
+            <h3>Proof along the way</h3>
+            <p>Checkpoints at weeks 6, 10, 14 and 18. Pass them and race day is validation, not a question mark.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- SECTION: COMING SOON -->
-    <section id="coming-soon" class="coming-soon-section">
-        <div class="container">
-            <h2>We're Just Getting Started</h2>
-            <p class="section-intro">Run+ Plans is building the training tools serious runners actually need. Here's what's coming.</p>
-
-            <div class="coming-soon-grid">
-
-                <div class="coming-soon-card">
-                    <div class="coming-soon-badge">Coming Soon</div>
-                    <div class="coming-soon-icon">🗺️</div>
-                    <h3>Train for YOUR Race</h3>
-                    <p>Other apps train you for "a hilly marathon." We train you for <em>your</em> marathon. Upload your race's course file and Coach Aiden analyzes the specific hills you'll face — the invisible 6-mile grind, the late-race climb, the quad-destroying descent. Your workouts mirror your actual course.</p>
-                    <p class="coming-soon-tagline">"Know the course. Train the course. Conquer the course."</p>
-                </div>
-
-                <div class="coming-soon-card">
-                    <div class="coming-soon-badge">Coming Soon</div>
-                    <div class="coming-soon-icon">📅</div>
-                    <h3>Build a Race Season, Not Just a Plan</h3>
-                    <p>Your spring half marathon isn't just a race — it's preparation for your fall marathon. Set your A-race, choose tune-up races, and we build the entire season with proper periodization. Every B-race has a purpose. Every training block builds on the last. This is how coaches think.</p>
-                    <p class="coming-soon-tagline">"Most apps train you for one race. We train you for your season."</p>
-                </div>
-
-                <div class="coming-soon-card">
-                    <div class="coming-soon-badge">Coming Soon</div>
-                    <div class="coming-soon-icon">🏥</div>
-                    <h3>Coach Aiden Through Your Injury</h3>
-                    <p>Injury recovery isn't just a protocol — it's a conversation. Soon, Coach Aiden will walk you through the injury recovery process with guided coaching chat: what you can do today, what to watch for, how to know when you're ready to return to running. Evidence-based, and specific to your injury history.</p>
-                    <p class="coming-soon-tagline">"Not a rest day and silence. A coach walking you back."</p>
-                </div>
-
-                <div class="coming-soon-card">
-                    <div class="coming-soon-badge">Coming Soon</div>
-                    <div class="coming-soon-icon">📊</div>
-                    <h3>Adaptive Weakness Detection</h3>
-                    <p>Your pace drops every time you hit hills. Your easy runs are consistently too hard. Coach Aiden watches your patterns week over week — and when he sees a recurring problem, he offers targeted workouts to fix it. Proactive coaching, not just reactive feedback.</p>
-                    <p class="coming-soon-tagline">"Your coach notices what you don't."</p>
-                </div>
-
-            </div>
+    <!-- LIFE -->
+    <section class="life dark" id="life">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Life happened? Tell Aiden.</h2>
+          <p>Legs are trashed, the track is closed, work blew up. Tell him in plain words — or pick a direction — and he reshapes the day without losing what it was for.</p>
         </div>
+        <div class="life-grid">
+          <figure class="phone phone-sm"><img src="images/app/app-life-adaptations.webp" width="361" height="780" loading="lazy" alt="Life Adaptations: reshape today's session with options such as same stimulus a different way, make it easier, make it harder, switch to Cyclete, or cross-train instead."></figure>
+          <div>
+            <h3 class="list-title">Seven ways to reshape today</h3>
+            <ul class="options">
+              <li><strong>Tell Aiden what's going on</strong><span>He sorts the day out from plain language.</span></li>
+              <li><strong>Same stimulus, different way</strong><span>A different workout that does the same job. Coach's pick.</span></li>
+              <li><strong>Make it easier</strong><span>Lower intensity, same purpose.</span></li>
+              <li><strong>Make it harder</strong><span>Denser or different work when you're feeling it.</span></li>
+              <li><strong>Cross-train instead</strong><span>Pool, bike, rower, elliptical, stairs or swim.</span></li>
+              <li><strong>Brick workout</strong><span>Run and bike combined.</span></li>
+              <li><strong>Move it</strong><span>Shift the session to another day.</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="list-title">Cross-training that's actually prescribed</h3>
+            <p>Missing an interval day doesn't mean "go do 30 minutes of cardio." For that one session, Aiden offers 24 structured alternatives built to hit the same stimulus:</p>
+            <ul class="modes">
+              <li><strong>Pool running</strong> 400m repeats, 800m repeats, pyramids, speed bursts</li>
+              <li><strong>Swimming</strong> 25s, 50s, 100s, descending ladder</li>
+              <li><strong>Elliptical</strong> 1-on/1-off, pyramids, 3-minute repeats, Tabata</li>
+              <li><strong>Rowing</strong> 500m and 1000m repeats, pyramids, max efforts</li>
+              <li><strong>Bike</strong> sprints, 90-second power, 3-minute repeats, Tabata</li>
+              <li><strong>Stairs</strong> power intervals, Tabata climb, pyramids, 30/30s</li>
+            </ul>
+            <p class="small">Cross-training earns RunEQ miles, so the week's work is counted honestly.</p>
+          </div>
+        </div>
+        <div class="life-foot">
+          <p><strong>Heads-up, coach.</strong> Travel, a crazy week, a sick kid — give Aiden a heads-up and he adjusts the plan around it, because he already knows where you are in it.</p>
+          <p><strong>Injury Recovery Mode.</strong> Reshapes training around what you can safely do and builds a gradual return to running. RunEQ adjusts training; it doesn't diagnose injuries or replace a clinician.</p>
+        </div>
+      </div>
     </section>
 
-    <!-- SECTION 7: GET STARTED -->
-    <section id="get-started" class="get-started-section">
-        <div class="container">
-            <h2>Ready to Run Smarter?</h2>
-            <p class="section-subheading">Apply to join the closed beta — we're qualifying runners now</p>
-
-            <div class="get-started-content">
-                <p>We're a small, focused team building something real for runners who train the way life actually allows. Apply now and get a plan tailored to your goals, schedule, equipment, and what your body can handle.</p>
-                <div class="cta-buttons">
-                    <a href="https://form.typeform.com/to/HnjGzJlV" class="btn btn-primary">Apply for Beta Access</a>
-                    <a href="https://app.runplusplans.com" class="btn btn-secondary-light">Login →</a>
-                </div>
-                <p class="get-started-note">Questions? Email us at <a href="mailto:hello@runplusplans.com">hello@runplusplans.com</a></p>
-            </div>
+    <!-- DIFFERENT -->
+    <section class="different" id="different">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Not another running app with a plan inside.</h2>
+          <p>Plans are everywhere. What runners don't get is a coach who knows the plan, sees the work, and talks to them about it.</p>
         </div>
+        <div class="compare" role="table" aria-label="A typical training app compared with RunEQ">
+          <div class="compare-row compare-head" role="row"><span role="columnheader"></span><span role="columnheader">A typical training app</span><span role="columnheader">RunEQ with Coach Aiden</span></div>
+          <div class="compare-row" role="row"><span role="rowheader">Where the plan starts</span><span role="cell">The goal time you typed in</span><span role="cell">Your actual recent training, with an honest gap</span></div>
+          <div class="compare-row" role="row"><span role="rowheader">Before a workout</span><span role="cell">A pace and a distance</span><span role="cell">Why it matters, how it should feel, where it comes from</span></div>
+          <div class="compare-row" role="row"><span role="rowheader">After a workout</span><span role="cell">Splits and a map</span><span role="cell">A lap-by-lap read against the plan, terrain and altitude</span></div>
+          <div class="compare-row" role="row"><span role="rowheader">Questions</span><span role="cell">Search a forum</span><span role="cell">Ask Aiden about any workout or weekly review</span></div>
+          <div class="compare-row" role="row"><span role="rowheader">Getting faster</span><span role="cell">Assumed on schedule</span><span role="cell">Earned, pace by pace, with checkpoints</span></div>
+          <div class="compare-row" role="row"><span role="rowheader">A bad day</span><span role="cell">Skip it</span><span role="cell">Seven ways to adapt, 24 cross-training options for an interval day</span></div>
+        </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <h3>Run+ Plans</h3>
-                    <p>Training plans built for real runners who need flexibility, safety, and support.</p>
-                </div>
-                <div class="footer-right">
-                    <p class="footer-contact">Questions? <a href="mailto:hello@runplusplans.com">hello@runplusplans.com</a></p>
-                    <p class="footer-social">Follow development:
-                        <a href="https://www.facebook.com/profile.php?id=61583680539558" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a> |
-                        <a href="https://instagram.com/run.plusplans" target="_blank" rel="noopener noreferrer" class="social-link">Instagram</a>
-                    </p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Run+ Plans. All rights reserved.</p>
-                <p class="footer-links"><a href="privacy.html">Privacy Policy</a></p>
-                <p class="footer-credit">Built with conversations with AI</p>
-            </div>
+    <!-- PLAN + GARMIN -->
+    <section class="plan" id="plan">
+      <div class="wrap split split-reverse">
+        <figure class="phone">
+          <img src="images/app/app-full-plan.webp" width="398" height="866" loading="lazy" alt="Full Plan Overview: 21 weeks of training by phase (base, build, peak, taper) with running and RunEQ cross-training miles.">
+        </figure>
+        <div class="split-copy">
+          <h2>The whole plan, start to race day.</h2>
+          <p>Base, build, peak, taper — every week and every workout, filtered by type, with 3:1 cutback weeks built in. Your plan starts from your real fitness, schedule and equipment.</p>
+          <ul class="checks">
+            <li><strong>Garmin and Strava in.</strong> Your history and completed runs feed the coaching.</li>
+            <li><strong>Garmin out.</strong> Structured workouts land on your watch with intervals and targets already built.</li>
+            <li><strong>Cross-training counts.</strong> Bike, pool and Cyclete sessions convert to RunEQ miles.</li>
+            <li><strong>Runs in your browser.</strong> Desktop or phone. No app to install.</li>
+          </ul>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- PRICING -->
+    <section class="pricing dark" id="pricing">
+      <div class="wrap pricing-grid">
+        <div>
+          <p class="kicker">Early Access is open for October</p>
+          <h2>Get in at the Early Access rate.</h2>
+          <p>We've just opened RunEQ to Early Access runners for October. Join now for $15 a month, or commit to a full year up front for $129. Every feature, the full coach.</p>
+          <p class="small">General Availability pricing will be higher. Secure checkout by Stripe.</p>
+        </div>
+        <div class="price-card">
+          <div class="price-options">
+            <div class="price">
+              <span class="price-label">Early Access monthly</span>
+              <span class="price-amount">$15<small>/month</small></span>
+            </div>
+            <div class="price is-best">
+              <span class="price-label">Annual <em>save $51</em></span>
+              <span class="price-amount">$129<small>/year</small></span>
+            </div>
+          </div>
+          <ul class="checks">
+            <li>Coach Aiden before and after every workout</li>
+            <li>Ask Aiden about any workout or weekly review</li>
+            <li>Goal-specific plan built from your real training</li>
+            <li>Earn-It pace progression and checkpoints</li>
+            <li>Life Adaptations, Heads-up Coach, Injury Recovery Mode</li>
+            <li>Prescribed cross-training and Garmin workout delivery</li>
+          </ul>
+          <a class="button button-wide" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="wrap faq-grid">
+        <h2>Questions runners ask first</h2>
+        <div class="faq-list">
+          <details><summary>Is Coach Aiden a real person?</summary><p>No. Aiden is an AI coach. His workouts come from established coaching methods — Pete Pfitzinger, Hal Higdon, Greg McMillan and others — and he coaches from your actual plan and training data, not generic advice. He's direct by design: he'd rather tell you a goal is a stretch than promise something your training doesn't support.</p></details>
+          <details><summary>Can I really ask him questions?</summary><p>Yes. Every post-workout read and weekly review has a chat where you can ask Aiden about it — why a rep fell apart, whether to push Sunday's long run, what a heart-rate drift means. He answers with your plan and data in front of him.</p></details>
+          <details><summary>What does Early Access cost?</summary><p>Early Access is open for October at $15 per month, or $129 if you commit to a year up front. Payments go through Stripe. General Availability pricing will be higher.</p></details>
+          <details><summary>Do I need to download an app?</summary><p>No. RunEQ runs in the browser on desktop and phone.</p></details>
+          <details><summary>Which watches and apps does it work with?</summary><p>Garmin and Strava bring in your training history and completed runs. Structured running workouts can be sent straight to Garmin watches.</p></details>
+          <details><summary>Do I have to cross-train?</summary><p>No. You can run every workout as written. Cross-training is there when you need it, and it's prescribed with the same purpose as the run it replaces.</p></details>
+          <details><summary>What are RunEQ miles?</summary><p>A training-equivalent unit that gives credit for cross-training like cycling or pool running. They aren't literal running miles, and RunEQ doesn't claim every activity builds the same adaptations as running.</p></details>
+          <details><summary>Does RunEQ diagnose injuries?</summary><p>No. It can adjust training around what you report and support a gradual return to running after appropriate clearance, but it doesn't diagnose, treat, or replace a qualified clinician.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final dark">
+      <div class="wrap final-inner">
+        <h2>Train with a coach who knows where you actually are.</h2>
+        <p class="final-note">Early Access is open for October — $15 a month.</p>
+        <div class="actions">
+          <a class="button" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
+          <a class="text-link" href="https://app.runeq.co/" data-track="login">Already training? Log in</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <img src="images/runeq-logo-transparent.png" width="376" height="108" alt="RunEQ" class="footer-logo">
+        <p>Training that bends, not breaks.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="https://www.instagram.com/runeq.coachaiden/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@runeq.coachaiden" target="_blank" rel="noopener">YouTube</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="https://app.runeq.co/">Log in</a>
+      </nav>
+    </div>
+    <div class="wrap footer-legal">
+      <small>© 2026 RunEQ™. Coach Aiden™ and Earn It™ are RunEQ marks.</small>
+      <small>Screens and quotes are from a real RunEQ plan.</small>
+    </div>
+  </footer>
+  <script src="script.js?v=7"></script>
 </body>
 </html>
