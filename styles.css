@@ -62,6 +62,7 @@ p{margin:0 0 1em;max-width:62ch}
 .hero-points{list-style:none;padding:0;margin:40px 0 0;display:flex;flex-wrap:wrap;gap:8px 26px;color:#8fa4ba;font-size:.92rem}
 .hero-points li{position:relative;padding-left:16px}
 .hero-points li:before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--teal)}
+.hero-proof{margin:28px 0 0;padding-top:18px;border-top:1px solid #1f3550;color:#c3d3e2;font-size:.95rem;font-weight:500;max-width:46ch}
 .phone-hero{justify-self:center;border-bottom:0;border-radius:42px 42px 0 0;width:min(100%,360px);margin-bottom:-2px;box-shadow:0 -10px 90px rgba(40,168,243,.22)}
 .phone-hero img{aspect-ratio:400/700;object-fit:cover;object-position:top}
 
