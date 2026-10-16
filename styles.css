@@ -58,7 +58,8 @@ p{margin:0 0 1em;max-width:62ch}
 .dark .kicker,.kicker{color:var(--teal);font-weight:600;font-size:1rem;margin-bottom:18px}
 .hero h1{font-size:clamp(2.9rem,6vw,5.4rem);line-height:.98;letter-spacing:-.04em;margin-bottom:26px;max-width:12ch}
 .lede{font-size:clamp(1.05rem,1.4vw,1.22rem);color:#b3c3d4;max-width:54ch;margin-bottom:34px}
-.price-note{color:#9db0c4;font-size:.95rem}
+.price-note{color:#9db0c4;font-size:.92rem;line-height:1.45}
+.price-note strong{color:#fff}
 .hero-points{list-style:none;padding:0;margin:40px 0 0;display:flex;flex-wrap:wrap;gap:8px 26px;color:#8fa4ba;font-size:.92rem}
 .hero-points li{position:relative;padding-left:16px}
 .hero-points li:before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--teal)}
@@ -134,6 +135,11 @@ p{margin:0 0 1em;max-width:62ch}
 .price-amount small{font:500 .9rem var(--body);color:var(--muted);margin-left:4px;letter-spacing:0}
 .price-card .checks li{color:var(--text)}
 
+.ga-note{margin:6px 0 18px;padding:16px 18px;border-left:3px solid var(--teal);background:rgba(43,215,196,.08);border-radius:0 12px 12px 0}
+.ga-note strong{display:block;color:#fff;margin-bottom:4px}
+.ga-note p{margin:0;font-size:.95rem}
+.dark .price-card-tag,.price-card-tag{display:inline-block;margin:0 0 14px;padding:4px 12px;border-radius:99px;background:#e5f8f5;color:#0b8577;font-size:.82rem;font-weight:700}
+
 /* FAQ */
 .faq{padding:clamp(80px,10vw,130px) 0}
 .faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,80px);align-items:start}
@@ -164,6 +170,7 @@ p{margin:0 0 1em;max-width:62ch}
 /* EA bar */
 .ea-bar{background:var(--teal);color:var(--teal-ink);text-align:center;font-size:.92rem;padding:9px 16px}
 .ea-bar p{margin:0 auto;max-width:none}
+.ea-tag{display:inline-block;margin-right:8px;padding:2px 9px;border-radius:99px;background:var(--teal-ink);color:var(--teal);font-size:.75rem;font-weight:700;letter-spacing:.02em;vertical-align:1px}
 .ea-bar a{font-weight:700;margin-left:6px}
 
 /* Pull quotes */
