@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=7">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"RunEQ","url":"https://runeq.co/","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"An AI running coach, Coach Aiden, with goal-specific training plans, workout explanations, lap-by-lap post-workout analysis you can ask questions about, weekly reviews, life adaptations and earned pace progression.","offers":[{"@type":"Offer","name":"Month-to-Month","price":"19.99","priceCurrency":"USD","description":"Early Access: $15 first month, then $19.99 per month"},{"@type":"Offer","name":"Race Build","price":"54.99","priceCurrency":"USD","description":"Early Access: $54.99 paid up front for up to 20 weeks"},{"@type":"Offer","name":"Annual","price":"114","priceCurrency":"USD","description":"Early Access: $114 paid up front for the first year"}],"brand":{"@type":"Brand","name":"RunEQ"},"publisher":{"@type":"Organization","name":"RunEQ LLC","url":"https://runeq.co/","email":"hello@runplusplans.com","address":{"@type":"PostalAddress","streetAddress":"5900 Balcones Drive, Ste 100","addressLocality":"Austin","addressRegion":"TX","postalCode":"78731","addressCountry":"US"}}}
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"RunEQ","url":"https://runeq.co/","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"An AI running coach, Coach Aiden, with goal-specific training plans, workout explanations, lap-by-lap post-workout analysis you can ask questions about, weekly reviews, life adaptations and earned pace progression.","offers":[{"@type":"Offer","name":"Month-to-Month","price":"19.99","priceCurrency":"USD","description":"Early Access: $15 first month, then $19.99 per month"},{"@type":"Offer","name":"10-Week Build","price":"34.99","priceCurrency":"USD","description":"Early Access: $34.99 paid up front for a 10-week 5K or 10K build"},{"@type":"Offer","name":"Race Build","price":"54.99","priceCurrency":"USD","description":"Early Access: $54.99 paid up front for up to 20 weeks"},{"@type":"Offer","name":"Annual","price":"114","priceCurrency":"USD","description":"Early Access: $114 paid up front for the first year"}],"brand":{"@type":"Brand","name":"RunEQ"},"publisher":{"@type":"Organization","name":"RunEQ LLC","url":"https://runeq.co/","email":"hello@runplusplans.com","address":{"@type":"PostalAddress","streetAddress":"5900 Balcones Drive, Ste 100","addressLocality":"Austin","addressRegion":"TX","postalCode":"78731","addressCountry":"US"}}}
   </script>
 </head>
 <body>
@@ -341,12 +341,20 @@
             <p class="plan-desc">Train month by month. Your Early Access rate stays at $19.99 for as long as you stay subscribed.</p>
             <a class="button button-wide button-ghost" href="https://app.runeq.co/" data-track="ea_signup_monthly">Start Month-to-Month</a>
           </article>
+          <article class="plan-card">
+            <p class="plan-tag plan-tag-quiet">5K &amp; 10K</p>
+            <h3>10-Week Build</h3>
+            <p class="plan-price"><span>$34.99</span> paid today</p>
+            <p class="plan-then">Your first month at $15, plus $19.99 for the rest of your build (10 weeks).</p>
+            <p class="plan-desc"><strong>Built for your 5K or 10K.</strong> Ten weeks with Coach Aiden, from first workout to race day.</p>
+            <a class="button button-wide button-ghost" href="https://app.runeq.co/" data-track="ea_signup_10_week_build">Start a 10-Week Build</a>
+          </article>
           <article class="plan-card is-featured">
-            <p class="plan-tag">For your goal race</p>
+            <p class="plan-tag">Half &amp; full marathon</p>
             <h3>Race Build</h3>
             <p class="plan-price"><span>$54.99</span> paid today</p>
             <p class="plan-then">Your first month at $15, plus $39.99 for the rest of your build (up to 20 weeks).</p>
-            <p class="plan-desc"><strong>Your whole race, start to finish line.</strong> Up to 20 weeks with Coach Aiden, through base, build, taper and race day. If your race comes sooner, the extra weeks are on Aiden.</p>
+            <p class="plan-desc"><strong>Your whole race, start to finish line.</strong> For your half or full marathon: up to 20 weeks with Coach Aiden, through base, build, taper and race day. If your race comes sooner, the extra weeks are on Aiden.</p>
             <p class="plan-save">About $40 less than five months of Month-to-Month.</p>
             <a class="button button-wide" href="https://app.runeq.co/" data-track="ea_signup_race_build">Start a Race Build</a>
           </article>
@@ -381,8 +389,8 @@
         <div class="faq-list">
           <details><summary>Is Coach Aiden a real person?</summary><p>No. Aiden is an AI coach. His workouts come from established coaching methods — Pete Pfitzinger, Hal Higdon, Greg McMillan and others — and he coaches from your actual plan and training data, not generic advice. He's direct by design: he'd rather tell you a goal is a stretch than promise something your training doesn't support.</p></details>
           <details><summary>Can I really ask him questions?</summary><p>Yes. Every post-workout read and weekly review has a chat where you can ask Aiden about it — why a rep fell apart, whether to push Sunday's long run, what a heart-rate drift means. He answers with your plan and data in front of him.</p></details>
-          <details><summary>What does Early Access cost?</summary><p>Every plan starts with a $15 first month. After that, Month-to-Month is $19.99 a month, a Race Build is $54.99 paid up front for up to 20 weeks (your first month at $15 plus $39.99 for the rest of your build), and Annual is $114 paid up front for your first year (your first month at $15 plus $99 for the rest of the year). Your Early Access rate stays the same for as long as you stay subscribed. These are Early Access prices — they go up when RunEQ moves to General Availability. Payments go through Stripe.</p></details>
-          <details><summary>What is a Race Build?</summary><p>One price for one goal race. You get up to 20 weeks with Coach Aiden — base, build, taper and race day — for $54.99 total. If your plan is shorter than 20 weeks, the extra weeks are yours to keep training with Aiden.</p></details>
+          <details><summary>What does Early Access cost?</summary><p>Every plan starts with a $15 first month. After that, Month-to-Month is $19.99 a month; a 10-Week Build for a 5K or 10K is $34.99 paid up front (your first month at $15 plus $19.99 for the rest of your build); a Race Build is $54.99 paid up front for up to 20 weeks (your first month at $15 plus $39.99 for the rest of your build), and Annual is $114 paid up front for your first year (your first month at $15 plus $99 for the rest of the year). Your Early Access rate stays the same for as long as you stay subscribed. These are Early Access prices — they go up when RunEQ moves to General Availability. Payments go through Stripe.</p></details>
+          <details><summary>What is a Race Build?</summary><p>One price for one half or full marathon. You get up to 20 weeks with Coach Aiden — base, build, taper and race day — for $54.99 total. If your plan is shorter than 20 weeks, the extra weeks are yours to keep training with Aiden. Training for a 5K or 10K? The 10-Week Build covers ten weeks for $34.99.</p></details>
           <details><summary>Do I need to download an app?</summary><p>No. RunEQ was built web-first: it works like an app on your phone with nothing to install, and opens full-size on your desktop for planning. Native Android and iPhone apps are coming soon, and your account will carry over.</p></details>
           <details><summary>Which watches and apps does it work with?</summary><p>Garmin and Strava bring in your training history and completed runs. Structured running workouts can be sent straight to Garmin watches.</p></details>
           <details><summary>Do I have to cross-train?</summary><p>No. You can run every workout as written. Cross-training is there when you need it, and it's prescribed with the same purpose as the run it replaces.</p></details>
