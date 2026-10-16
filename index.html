@@ -27,13 +27,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=7">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"RunEQ","url":"https://runeq.co/","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"An AI running coach, Coach Aiden, with goal-specific training plans, workout explanations, lap-by-lap post-workout analysis you can ask questions about, weekly reviews, life adaptations and earned pace progression.","offers":[{"@type":"Offer","price":"15","priceCurrency":"USD","description":"Early Access monthly"},{"@type":"Offer","price":"129","priceCurrency":"USD","description":"Early Access annual"}],"brand":{"@type":"Brand","name":"RunEQ"},"publisher":{"@type":"Organization","name":"RunEQ LLC","url":"https://runeq.co/","email":"hello@runplusplans.com","address":{"@type":"PostalAddress","streetAddress":"5900 Balcones Drive, Ste 100","addressLocality":"Austin","addressRegion":"TX","postalCode":"78731","addressCountry":"US"}}}
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"RunEQ","url":"https://runeq.co/","applicationCategory":"HealthApplication","operatingSystem":"Web","description":"An AI running coach, Coach Aiden, with goal-specific training plans, workout explanations, lap-by-lap post-workout analysis you can ask questions about, weekly reviews, life adaptations and earned pace progression.","offers":[{"@type":"Offer","name":"Month-to-Month","price":"19.99","priceCurrency":"USD","description":"Early Access: $15 first month, then $19.99 per month"},{"@type":"Offer","name":"Race Build","price":"54.99","priceCurrency":"USD","description":"Early Access: $15 first month, then $39.99 once; up to 20 weeks"},{"@type":"Offer","name":"Annual","price":"114","priceCurrency":"USD","description":"Early Access: $15 first month, then $99 for the year"}],"brand":{"@type":"Brand","name":"RunEQ"},"publisher":{"@type":"Organization","name":"RunEQ LLC","url":"https://runeq.co/","email":"hello@runplusplans.com","address":{"@type":"PostalAddress","streetAddress":"5900 Balcones Drive, Ste 100","addressLocality":"Austin","addressRegion":"TX","postalCode":"78731","addressCountry":"US"}}}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="ea-bar"><p><span class="ea-tag">Early Access</span> <strong>Open for October at $15 a month.</strong> Prices go up at General Availability. <a href="#pricing">See pricing</a></p></div>
+  <div class="ea-bar"><p><span class="ea-tag">Early Access</span> <strong>Open for October — your first month is $15.</strong> Prices go up at General Availability. <a href="#pricing">See pricing</a></p></div>
 
   <header class="site-header">
     <a class="brand" href="#top" aria-label="RunEQ home"><img src="images/runeq-logo-transparent.png" width="376" height="108" alt="RunEQ"></a>
@@ -60,7 +60,7 @@
           <p class="lede">Aiden is the AI coach inside RunEQ. He builds your plan from what you've actually run, explains every workout before you lace up, reads it lap by lap when you're done — and then you can ask him about it.</p>
           <div class="actions">
             <a class="button" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
-            <span class="price-note"><strong>$15 a month</strong> — Early Access pricing.<br>Prices go up at General Availability.</span>
+            <span class="price-note"><strong>$15 first month</strong> — Early Access pricing.<br>Prices go up at General Availability.</span>
           </div>
           <ul class="hero-points">
             <li>5K, 10K, half and full marathon</li>
@@ -318,29 +318,47 @@
 
     <!-- PRICING -->
     <section class="pricing dark" id="pricing">
-      <div class="wrap pricing-grid">
-        <div>
-          <p class="kicker">Early Access is open for October</p>
-          <h2>Get in at the Early Access rate.</h2>
-          <p>We've just opened RunEQ to Early Access runners for October. Join now for $15 a month, or commit to a full year up front for $129. Every feature, the full coach.</p>
+      <div class="wrap">
+        <div class="pricing-head">
+          <div>
+            <p class="kicker">Early Access is open for October</p>
+            <h2>Every plan starts with a $15 first month.</h2>
+            <p>Every plan gets the full coach and every feature. Pick how you want to keep going after month one.</p>
+          </div>
           <div class="ga-note">
             <strong>These are Early Access prices, not permanent ones.</strong>
             <p>When RunEQ moves to General Availability, prices go up. If you're reading this later and the numbers have changed, that's why.</p>
           </div>
-          <p class="small">Secure checkout by Stripe.</p>
         </div>
-        <div class="price-card">
-          <p class="price-card-tag">Early Access pricing · October</p>
-          <div class="price-options">
-            <div class="price">
-              <span class="price-label">Early Access monthly</span>
-              <span class="price-amount">$15<small>/month</small></span>
-            </div>
-            <div class="price is-best">
-              <span class="price-label">Early Access annual <em>save $51</em></span>
-              <span class="price-amount">$129<small>/year</small></span>
-            </div>
-          </div>
+
+        <div class="plans">
+          <article class="plan-card">
+            <h3>Month-to-Month</h3>
+            <p class="plan-price"><span>$15</span> first month</p>
+            <p class="plan-then">then $19.99 a month</p>
+            <p class="plan-desc">Train month by month. Your Early Access rate stays at $19.99 for as long as you stay subscribed.</p>
+            <a class="button button-wide button-ghost" href="https://app.runeq.co/" data-track="ea_signup_monthly">Start Month-to-Month</a>
+          </article>
+          <article class="plan-card is-featured">
+            <p class="plan-tag">For your goal race</p>
+            <h3>Race Build</h3>
+            <p class="plan-price"><span>$54.99</span> total</p>
+            <p class="plan-then">$15 first month, then $39.99 once</p>
+            <p class="plan-desc"><strong>Your whole race, start to finish line.</strong> Up to 20 weeks with Coach Aiden, through base, build, taper and race day. If your race comes sooner, the extra weeks are on Aiden.</p>
+            <p class="plan-save">About $40 less than five months of Month-to-Month.</p>
+            <a class="button button-wide" href="https://app.runeq.co/" data-track="ea_signup_race_build">Start a Race Build</a>
+          </article>
+          <article class="plan-card">
+            <h3>Annual</h3>
+            <p class="plan-price"><span>$114</span> first year</p>
+            <p class="plan-then">$15 first month, then $99 for the year</p>
+            <p class="plan-desc">Train all year, race after race. Keep the $99 a year rate for as long as you stay subscribed.</p>
+            <a class="button button-wide button-ghost" href="https://app.runeq.co/" data-track="ea_signup_annual">Start Annual</a>
+          </article>
+        </div>
+
+        <div class="plan-includes">
+          <h3>Every plan includes</h3>
           <ul class="checks">
             <li>Coach Aiden before and after every workout</li>
             <li>Ask Aiden about any workout or weekly review</li>
@@ -349,7 +367,7 @@
             <li>Life Adaptations, Heads-up Coach, Injury Recovery Mode</li>
             <li>Prescribed cross-training and Garmin workout delivery</li>
           </ul>
-          <a class="button button-wide" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
+          <p class="small">Secure checkout by Stripe.</p>
         </div>
       </div>
     </section>
@@ -361,7 +379,8 @@
         <div class="faq-list">
           <details><summary>Is Coach Aiden a real person?</summary><p>No. Aiden is an AI coach. His workouts come from established coaching methods — Pete Pfitzinger, Hal Higdon, Greg McMillan and others — and he coaches from your actual plan and training data, not generic advice. He's direct by design: he'd rather tell you a goal is a stretch than promise something your training doesn't support.</p></details>
           <details><summary>Can I really ask him questions?</summary><p>Yes. Every post-workout read and weekly review has a chat where you can ask Aiden about it — why a rep fell apart, whether to push Sunday's long run, what a heart-rate drift means. He answers with your plan and data in front of him.</p></details>
-          <details><summary>What does Early Access cost?</summary><p>Early Access is open for October at $15 per month, or $129 if you commit to a year up front. Payments go through Stripe. These are Early Access prices only — prices go up when RunEQ moves to General Availability.</p></details>
+          <details><summary>What does Early Access cost?</summary><p>Every plan starts with a $15 first month. After that, Month-to-Month is $19.99 a month, a Race Build is $39.99 once for up to 20 weeks ($54.99 total), and Annual is $99 for the year ($114 your first year). Your Early Access rate stays the same for as long as you stay subscribed. These are Early Access prices — they go up when RunEQ moves to General Availability. Payments go through Stripe.</p></details>
+          <details><summary>What is a Race Build?</summary><p>One price for one goal race. You get up to 20 weeks with Coach Aiden — base, build, taper and race day — for $54.99 total. If your plan is shorter than 20 weeks, the extra weeks are yours to keep training with Aiden.</p></details>
           <details><summary>Do I need to download an app?</summary><p>No. RunEQ was built web-first: it works like an app on your phone with nothing to install, and opens full-size on your desktop for planning. Native Android and iPhone apps are coming soon, and your account will carry over.</p></details>
           <details><summary>Which watches and apps does it work with?</summary><p>Garmin and Strava bring in your training history and completed runs. Structured running workouts can be sent straight to Garmin watches.</p></details>
           <details><summary>Do I have to cross-train?</summary><p>No. You can run every workout as written. Cross-training is there when you need it, and it's prescribed with the same purpose as the run it replaces.</p></details>
@@ -375,7 +394,7 @@
     <section class="final dark">
       <div class="wrap final-inner">
         <h2>Train with a coach who knows where you actually are.</h2>
-        <p class="final-note">Early Access is open for October at $15 a month. Prices go up at General Availability.</p>
+        <p class="final-note">Early Access is open for October — your first month is $15. Prices go up at General Availability.</p>
         <div class="actions">
           <a class="button" href="https://app.runeq.co/" data-track="ea_signup">Start Early Access</a>
           <a class="text-link" href="https://app.runeq.co/" data-track="login">Already training? Log in</a>
