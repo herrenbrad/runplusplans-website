@@ -159,6 +159,7 @@ p{margin:0 0 1em;max-width:62ch}
 .plan-desc strong{color:var(--text)}
 .plan-card .plan-save{font-size:.9rem;font-weight:600;color:#0b8577!important;margin:-4px 0 18px}
 .plan-card .plan-ends{font-size:.86rem;color:#4a5d70!important;margin:0 0 18px;padding-top:12px;border-top:1px solid #e3eaec}
+.plan-ends strong{display:block;margin-top:6px;color:#0b8577;font-weight:600}
 .plan-card .button{margin-top:auto}
 .dark .plan-terms,.plan-terms{margin:24px auto 0;max-width:78ch;text-align:center;font-size:.95rem;color:#c3d3e2}
 .plan-terms strong{color:#fff}
