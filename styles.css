@@ -180,7 +180,12 @@ p{margin:0 0 1em;max-width:62ch}
 .plan-card .plan-ends{font-size:.86rem;color:#4a5d70!important;margin:0 0 18px;padding-top:12px;border-top:1px solid #e3eaec}
 .plan-ends strong{display:block;margin-top:6px;color:#0b8577;font-weight:600}
 .plan-card .button{margin-top:auto}
-.dark .plan-terms,.plan-terms{margin:24px auto 0;max-width:78ch;text-align:center;font-size:.95rem;color:#c3d3e2}
+.plan-terms{margin:28px auto 0;max-width:720px;padding:22px 26px;border:1px solid var(--ink-line);border-radius:18px;font-size:.95rem}
+.dark .plan-terms p,.plan-terms p{margin:0 0 10px;color:#c3d3e2;max-width:none}
+.plan-terms p:last-child{margin:10px 0 0}
+.plan-terms ul{margin:0;padding-left:1.1rem;color:#c3d3e2}
+.plan-terms li{margin:4px 0}
+.plan-terms a{color:var(--teal)}
 .plan-terms strong{color:#fff}
 .plan-card.is-featured{border-color:var(--teal);box-shadow:0 24px 60px -24px rgba(43,215,196,.45)}
 .plan-card .plan-tag{align-self:flex-start;margin:0 0 12px;padding:4px 12px;border-radius:99px;background:#e5f8f5;color:#0b8577!important;font-size:.8rem;font-weight:700}
